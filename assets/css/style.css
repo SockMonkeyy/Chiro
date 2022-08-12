@@ -793,7 +793,7 @@ section {
  .cta-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   letter-spacing: 1px;
   display: flex;
   justify-content: center;
@@ -811,7 +811,7 @@ section {
 .cta-text {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 2rem;
   letter-spacing: 1px;
   display: flex;
   justify-content: center;
@@ -829,9 +829,10 @@ section {
 
 }
 
-.cta .cta-btn:hover {
+.cta-btn:hover {
   background: #fff;
   color: #4a679f;
+  font-size: 1.2rem;
 }
 
 
@@ -1715,9 +1716,9 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #eeeeee;
+  background: #4a679f;
   padding: 0 0 30px 0;
-  color: #555555;
+  color: black;
   font-size: 14px;
 }
 
@@ -1847,10 +1848,12 @@ section {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
+  color: white;
 }
 
 #footer .credits {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
+  color: white;
 }
