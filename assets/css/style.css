@@ -804,8 +804,9 @@ section {
   margin-top: 10px;
   border: 2px solid #fff;
   color: white;
-  max-width: 500px;
+  max-width: 16rem;
   margin: 0 auto;
+  text-align: center;
 }
 
 .cta-text {
@@ -820,7 +821,7 @@ section {
   padding: 10px 35px;
   transition: 0.5s;
   margin-top: 10px;
-  max-width: 600px;
+  max-width: 80%;
   margin: 0 auto;
   background-color: #4a669f57;
   color: white;
