@@ -39,12 +39,11 @@
   ======================================================== -->
 
   <style>
-    body{
-      
-    }
+    body {}
+
     .aboutTeam {
       max-height: 800px;
-     
+
     }
 
     .headShot {
@@ -66,13 +65,28 @@
       background-image: url("./assets/img/mitchell-griest-MT9gX5nd7Ig-unsplash.jpg");
 
       /* Set a specific height */
-       min-height: 500px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    position:relative;
+      min-height: 500px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0;
+      position: relative;
+
+    }
+
+    .parallax1 {
+      /* The image used */
+      background-image: url("./assets/img/backSpine.jpg");
+
+      /* Set a specific height */
+      min-height: 400px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0;
+      position: relative;
 
     }
 
@@ -84,8 +98,8 @@
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
       color: white;
-      background-color: rgba(0, 0, 0, 0.349);
-      margin-right: 3rem;
+      background-color: #00000059;
+      margin 0 auto;
     }
   </style>
 </head>
@@ -248,17 +262,19 @@
     </section><!-- End Featured Services Section -->
 
     <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
+    <div class="parallax1 container-fluid cta row">
+      <h3 class="col-6 cta-text rounded">Take The Next Step To A Pain Free Life <br><br> Talk With the Doctor about your
+        symptoms to
+        detemine if chiropractic is a good choice for you.</h3>
+      <p class="cta-text1"></p>
+      <a class="cta-btn scrollto" href="#appointment">Make an Make an Appointment</a>
+    </div>
+    </section><!-- End Features Section -->
 
-        <div class="text-center">
-          <h3>Take The Next Step To A Pain Free Life</h3>
-          <p> Talk with the Doctor about your symptoms to determine if chiropractic is a good choice for you.</p>
-          <a class="cta-btn scrollto" href="#appointment">Make an Make an Appointment</a>
-        </div>
+    <div class="text-center">
 
-      </div>
-    </section><!-- End Cta Section -->
+    </div>
+    <!-- End Cta Section -->
 
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
@@ -314,10 +330,10 @@
               disease; healing and repair; – and together we achieve healing and wellness for our patients.
             </p>
             <div class="row justify-content-center">
-            <div class="col-lg-6 pb-5 pt-2" data-aos="fade-right">
-              <img src="assets//img/Trussville-Chiropractic_Chiropractic-Childrens-Back-Adjustment.jpg"
-                class="headShot img-fluid border rounded" alt="">
-            </div>
+              <div class="col-lg-6 pb-5 pt-2" data-aos="fade-right">
+                <img src="assets//img/Trussville-Chiropractic_Chiropractic-Childrens-Back-Adjustment.jpg"
+                  class="headShot img-fluid border rounded" alt="">
+              </div>
             </div>
           </div>
           <div class="col-lg-6" data-aos="fade-right">
@@ -353,42 +369,36 @@
 
           <div class="row">
             <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-              <div class="icon"><i class="fas fa-heartbeat"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-                occaecati cupiditate non provident</p>
+              <div class="icon"><i class="fas fa-user-doctor"></i></div>
+              <h4 class="title"><a href="">Back Pain</a></h4>
+              <p class="description">Back pain is one of the most common reasons people go to the doctor or miss work
+                and a leading cause of disability worldwide.</p>
             </div>
             <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
-              <div class="icon"><i class="fas fa-pills"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo
-                consequat tarad limino ata</p>
+              <div class="icon"><i class="fas fa-child"></i></div>
+              <h4 class="title"><a href="">Kid's Chiropractic Care</a></h4>
+              <p class="description">Chiropractic serves as an important part of your baby’s integrative pediatric
+                health care team.</p>
             </div>
             <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
-              <div class="icon"><i class="fas fa-hospital-user"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur</p>
+              <div class="icon"><i class="fas fa-kit-medical"></i></div>
+              <h4 class="title"><a href="">Supportive Devices</a></h4>
+              <p class="description">Trussville Chiropractic, P.C. offers bracing and support solutions that fit your
+                unique needs. We strive to increase your mobility, decrease your rehabilitation time and empower your
+                potential.</p>
             </div>
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-              <div class="icon"><i class="fas fa-dna"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum</p>
+            <div class="col-lg-6 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
+              <div type="button"  class="icon"><i class="fas fa-shoe-prints" href="#"></i></div>
+              <h4 class="title"><a href="#">Orthotics</a></h4>
+              <p class="description">Your feet may be a major factor contributing to your health problems. A foot
+                problem may be the cause of discomfort in your leg, knee, hip, back, shoulder, or even your neck!</p>
             </div>
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
-              <div class="icon"><i class="fas fa-wheelchair"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                praesentium
-                voluptatum deleniti atque</p>
-            </div>
-            <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
-              <div class="icon"><i class="fas fa-notes-medical"></i></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
-                soluta nobis est eligendi</p>
+            <div class="col-lg-6 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
+              <div class="icon"><i class="fas fa-person-cane"></i></div>
+              <h4 class="title"><a href="">Physiotherapy</a></h4>
+              <p class="description">Physiotherapy helps to restore movement and function when someone is affected by
+                injury, illness or disability. It can also help to reduce your risk of injury or illness in the future.
+              </p>
             </div>
           </div>
 
@@ -457,95 +467,7 @@
         </div>
       </section><!-- End Appointment Section -->
 
-      <!-- ======= Departments Section ======= -->
-      <section id="departments" class="departments">
-        <div class="container" data-aos="fade-up">
 
-          <div class="section-title">
-            <h2>Departments</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-              consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
-              sit
-              in iste officiis commodi quidem hic quas.</p>
-          </div>
-
-          <div class="row" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-4 mb-5 mb-lg-0">
-              <ul class="nav nav-tabs flex-column">
-                <li class="nav-item">
-                  <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
-                    <h4>Cardiology</h4>
-                    <p>Quis excepturi porro totam sint earum quo nulla perspiciatis eius.</p>
-                  </a>
-                </li>
-                <li class="nav-item mt-2">
-                  <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
-                    <h4>Neurology</h4>
-                    <p>Voluptas vel esse repudiandae quo excepturi.</p>
-                  </a>
-                </li>
-                <li class="nav-item mt-2">
-                  <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
-                    <h4>Hepatology</h4>
-                    <p>Velit veniam ipsa sit nihil blanditiis mollitia natus.</p>
-                  </a>
-                </li>
-                <li class="nav-item mt-2">
-                  <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
-                    <h4>Pediatrics</h4>
-                    <p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="col-lg-8">
-              <div class="tab-content">
-                <div class="tab-pane active show" id="tab-1">
-                  <h3>Cardiology</h3>
-                  <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a
-                    videna mareta paulona marka</p>
-                  <img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
-                  <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa
-                    odit
-                    magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil.
-                    Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
-                </div>
-                <div class="tab-pane" id="tab-2">
-                  <h3>Neurology</h3>
-                  <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a
-                    videna mareta paulona marka</p>
-                  <img src="assets/img/departments-2.jpg" alt="" class="img-fluid">
-                  <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa
-                    odit
-                    magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil.
-                    Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
-                </div>
-                <div class="tab-pane" id="tab-3">
-                  <h3>Hepatology</h3>
-                  <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a
-                    videna mareta paulona marka</p>
-                  <img src="assets/img/departments-3.jpg" alt="" class="img-fluid">
-                  <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa
-                    odit
-                    magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil.
-                    Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
-                </div>
-                <div class="tab-pane" id="tab-4">
-                  <h3>Pediatrics</h3>
-                  <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a
-                    videna mareta paulona marka</p>
-                  <img src="assets/img/departments-4.jpg" alt="" class="img-fluid">
-                  <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa
-                    odit
-                    magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil.
-                    Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section><!-- End Departments Section -->
 
       <!-- ======= Testimonials Section ======= -->
       <section id="testimonials" class="testimonials">
