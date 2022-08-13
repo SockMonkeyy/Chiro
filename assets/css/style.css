@@ -1216,6 +1216,7 @@ section {
 .testimonials .testimonial-item {
   box-sizing: content-box;
   min-height: 320px;
+  
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -1225,6 +1226,7 @@ section {
   position: relative;
   z-index: 2;
   border: 6px solid #fff;
+  height: auto;
 }
 
 .testimonials .testimonial-item h3 {
