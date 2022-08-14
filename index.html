@@ -102,30 +102,6 @@
       background-color: #00000059;
       margin 0 auto;
     }
-
-    #vidContainer {
-      position: relative;
-      overflow: hidden;
-      background-size: contain;
-    }
-
-    #vidContainer .content {
-      position: absolute;
-      top: 0;
-      font-family: 'myriad-std-tilt', sans-serif;
-      left: 0;
-      color: #FFF;
-      text-align: center;
-      width: 100%;
-      font-size: 6em;
-      padding: 120px 0;
-      font-weight: bold;
-      text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
-    }
-
-    .empty{
-      margin-bottom: 5rem;
-    }
   </style>
 </head>
 
@@ -145,7 +121,7 @@
   </div>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top mb-5">
+  <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
       <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt=""></a>
@@ -176,702 +152,723 @@
     </div>
   </header><!-- End Header -->
 
-  <div class="empty"><p class="mb-5"></p></div>
-
   <!-- ======= Hero Section ======= -->
-  <div id="vidContainer">
-    <video autoplay loop muted>
-      <source src="./assets/img/slide/header.mp4" type="video/mp4">
-      <!-- <source src="../../assets/ocean.webm" type="video/webm"> -->
-    </video>
-    <!-- End Hero -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-    <main id="main">
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
-      <!-- ======= Featured Services Section ======= -->
-      <section id="featured-services" class="featured-services">
-        <div class="container" data-aos="fade-up">
-          <H2 class="text-center pb-3">Did You Know We Can Help With . . .</H2>
-          <div class="row">
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                <div class="icon"><i class="fas fa-heartbeat"></i></div>
-                <h4 class="title"><a href="">STRENGTHENED IMMUNE SYSTEM</a></h4>
-                <p class="description">Everything in the body is connected. When a chiropractor corrects body
-                  misalignments resulting in improved sleep, mood, and posture, they are also strengthening the
-                  connections between body systems, especially between the nervous and immune system..</p>
-              </div>
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active"
+          style="background-image: url(assets/img/Trussville-Chiropractic_Chiropractic-Childrens-Neck-Adjustment.png)">
+          <div class="container">
+            <h2>Welcome to <span>Trussville Chiropractic, P.C.</span></h2>
+            <p>We Can Help . . . Adults and children with back pain, injuries,
+              migraines and more!</p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item"
+          style="background-image: url(assets/img/Trussville-Chiropractic_Chiropractic-Adjustment.jpg)">
+          <div class="container">
+            <h2>OVER 20 YEARS OF EXPERIENCE</h2>
+            <p>A Skilled Chiropractor that Targets the Root Causes of Pain</p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item pic3" style="background-image: url(assets/img/backPain.jpg)">
+          <div class="container">
+            <h2>YOU DON' HAVE TO LIVE IN PAIN</h2>
+            <p>Getting you out of pain fast, so you can enjoy your favorite activities is the goal of our office. </p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+      <div class="container" data-aos="fade-up">
+        <H2 class="text-center pb-3">Did You Know We Can Help With . . .</H2>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="fas fa-heartbeat"></i></div>
+              <h4 class="title"><a href="">STRENGTHENED IMMUNE SYSTEM</a></h4>
+              <p class="description">Everything in the body is connected. When a chiropractor corrects body
+                misalignments resulting in improved sleep, mood, and posture, they are also strengthening the
+                connections between body systems, especially between the nervous and immune system..</p>
             </div>
+          </div>
 
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-              <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-                <div class="icon"><i class="fas fa-person"></i></div>
-                <h4 class="title"><a href="">IMPROVED POSTURE</a></h4>
-                <p class="description">In an increasingly digital world, a chiropractor can help correct spinal
-                  misalignment caused by
-                  hunching over at a desk and improve a person’s posture. With people living most of their lives looking
-                  at some kind of screen, maintaining good posture is essential to preventing future spinal pain and
-                  misalignment</p>
-              </div>
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="fas fa-person"></i></div>
+              <h4 class="title"><a href="">IMPROVED POSTURE</a></h4>
+              <p class="description">In an increasingly digital world, a chiropractor can help correct spinal
+                misalignment caused by
+                hunching over at a desk and improve a person’s posture. With people living most of their lives looking
+                at some kind of screen, maintaining good posture is essential to preventing future spinal pain and
+                misalignment</p>
             </div>
+          </div>
 
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-              <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-                <div class="icon"><i class="fas fa-bed"></i></div>
-                <h4 class="title"><a href="">Problems Sleeping?</a></h4>
-                <p class="description">Most sleep problems are caused by physical discomfort. Whether it be having
-                  trouble
-                  falling asleep because of recent knee pain or having trouble staying asleep because of an old back
-                  injury, many experience restless sleep that could easily be alleviated by visiting a chiropractor.</p>
-              </div>
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="fas fa-bed"></i></div>
+              <h4 class="title"><a href="">Problems Sleeping?</a></h4>
+              <p class="description">Most sleep problems are caused by physical discomfort. Whether it be having trouble
+                falling asleep because of recent knee pain or having trouble staying asleep because of an old back
+                injury, many experience restless sleep that could easily be alleviated by visiting a chiropractor.</p>
             </div>
+          </div>
 
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-              <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-                <div class="icon"><i class="fas fa-brain"></i></div>
-                <h4 class="title"><a href="">Decrease Stress</a></h4>
-                <p class="description">In addition to alleviating physical pain and improving sleep and mood, regularly
-                  seeing a chiropractor can also decrease stress. Pain creates physical stresses on the body that can
-                  create emotional stress on the person that negatively impacts life. Visiting a chiropractor can
-                  relieve
-                  the aches and pains and help you live a more
-                  balanced life.</p>
-              </div>
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><i class="fas fa-brain"></i></div>
+              <h4 class="title"><a href="">Decrease Stress</a></h4>
+              <p class="description">In addition to alleviating physical pain and improving sleep and mood, regularly
+                seeing a chiropractor can also decrease stress. Pain creates physical stresses on the body that can
+                create emotional stress on the person that negatively impacts life. Visiting a chiropractor can relieve
+                the aches and pains and help you live a more
+                balanced life.</p>
             </div>
-
           </div>
 
         </div>
-      </section><!-- End Featured Services Section -->
 
-      <!-- ======= Cta Section ======= -->
-      <div class="parallax1 container-fluid cta row">
-        <h3 class="col-8 cta-text rounded">Take The Next Step To A Pain Free Life <br><br> Talk With the Doctor about
-          your
-          symptoms to
-          detemine if chiropractic is a good choice for you.</h3>
-        <p class="cta-text1"></p>
-        <a class="cta-btn scrollto" href="#appointment">Make an Appointment</a>
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <div class="parallax1 container-fluid cta row">
+      <h3 class="col-8 cta-text rounded">Take The Next Step To A Pain Free Life <br><br> Talk With the Doctor about your
+        symptoms to
+        detemine if chiropractic is a good choice for you.</h3>
+      <p class="cta-text1"></p>
+      <a class="cta-btn scrollto" href="#appointment">Make an Appointment</a>
+    </div>
+    </section><!-- End Features Section -->
+    <div>
+
+      <div class="text-center">
+
+      </div>
+      <!-- End Cta Section -->
+
+      <!-- ======= About Us Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+
+          <div class="section-title">
+            <h2>About Us</h2>
+            <h3>DR. STEPHEN K. EDWARDS</h3>
+            <p>Dr. Edwards is a board licensed chiropractic physician practicing since 1999. His interest in
+              chiropractic
+              began in childhood after chiropractic care helped him recover from an injury in which conventional
+              medicine
+              was not able to help. After receiving his bachelors at Auburn University, he earned his Doctor of
+              Chiropractic degree at the prestigious Palmer Chiropractic College in Davenport, Iowa.</p>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-6" data-aos="fade-right">
+              <img src="assets/img/aboutTeam.jpg" class="img-fluid border rounded" alt="">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
+              <h3>At Trussville Chiropractic, Dr. Edwards and Team:</h3>
+              <p class="fst-italic">
+                Our Purpose…to provide the highest level care to patients who seek the best in chiropractic while in a
+                patient-centered environment.
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle"></i>Believe health is your most important asset</li>
+                <li><i class="bi bi-check-circle"></i> commit to your pain relief while helping you achieve overall
+                  well-being</li>
+                <li><i class="bi bi-check-circle"></i> treat every patient with a honest approach to what we can and
+                  cannot do</li>
+              </ul>
+              <h3>This is how we do it</h3>
+              <p>
+                On your first visit we:
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle"></i>Evaluate your symptoms or injury</li>
+                <li><i class="bi bi-check-circle"></i>Perform an exam with xrays and other specialized diagnostic
+                  methods
+                </li>
+                <li><i class="bi bi-check-circle"></i>Determine if you are a good candidate for chiropractic</li>
+                <li><i class="bi bi-check-circle"></i>Review exam findings with you and recommend your best course of
+                  action</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row justify-content-center pt-5">
+            <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
+              <p class="fst-italic text-center">
+                Trussville Chiropractic enjoys a high level of patient satisfaction because we listen and address
+                questions you may have and encourage open communication throughout your care in our office. We strive to
+                teach understanding of the powerful body mechanisms and systems that regulate and control resistance to
+                disease; healing and repair; – and together we achieve healing and wellness for our patients.
+              </p>
+              <div class="row justify-content-center">
+                <div class="col-lg-6 pb-5 pt-2" data-aos="fade-right">
+                  <img src="assets//img/headShot.jpg"
+                    class="headShot img-fluid border rounded" alt="">
+                    <p class="text-center text-muted pt-3">DR. STEPHEN K. EDWARDS</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-right">
+              <img src="assets//img/aboutUsTeam.jpg" class="img-fluid aboutTeam border rounded" alt="">
+              
+            </div>
+            
+          </div>
+          <h3 class="text-center pt-4">Call today and find out what chiropractic can do for you!</h3>
+        </div>
+    </div>
+
+    </section><!-- End About Us Section -->
+
+
+
+    <!-- ======= Features Section ======= -->
+    <div>
+      <div class="parallax">
+        <h1 class="p-3 border rounded" id="paraText">Let Us Help You Get Back To The Life You Love</h1>
       </div>
       </section><!-- End Features Section -->
-      <div>
 
-        <div class="text-center">
+      <!-- ======= Services Section ======= -->
+      <section id="treatments" class="services services">
+        <div class="container" data-aos="fade-up">
+
+          <div class="section-title">
+            <h2>Treatments</h2>
+            <p>Whether you have seen a chiropractor in the past or are seeking a local chiropractor near you for the
+              first time, expect your visit to The Joint Chiropractic - Mission Valley to be different from any
+              healthcare experience you've had before. Perhaps even life-changing.</p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon"><i class="fas fa-user-doctor"></i></div>
+              <h4 class="title"><a href="">Back Pain</a></h4>
+              <p class="description">Back pain is one of the most common reasons people go to the doctor or miss work
+                and a leading cause of disability worldwide.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
+              <div class="icon"><i class="fas fa-child"></i></div>
+              <h4 class="title"><a href="">Kid's Chiropractic Care</a></h4>
+              <p class="description">Chiropractic serves as an important part of your baby’s integrative pediatric
+                health care team.</p>
+            </div>
+            <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
+              <div class="icon"><i class="fas fa-kit-medical"></i></div>
+              <h4 class="title"><a href="">Supportive Devices</a></h4>
+              <p class="description">Trussville Chiropractic, P.C. offers bracing and support solutions that fit your
+                unique needs. We strive to increase your mobility, decrease your rehabilitation time and empower your
+                potential.</p>
+            </div>
+            <div class="col-lg-6 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon"><i class="fas fa-shoe-prints"></i></div>
+              <h4 class="title"><a href="#">Orthotics</a></h4>
+              <p class="description">Your feet may be a major factor contributing to your health problems. A foot
+                problem may be the cause of discomfort in your leg, knee, hip, back, shoulder, or even your neck!</p>
+            </div>
+            <div class="col-lg-6 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
+              <div class="icon"><i class="fas fa-person-cane"></i></div>
+              <h4 class="title"><a href="">Physiotherapy</a></h4>
+              <p class="description">Physiotherapy helps to restore movement and function when someone is affected by
+                injury, illness or disability. It can also help to reduce your risk of injury or illness in the future.
+              </p>
+            </div>
+          </div>
 
         </div>
-        <!-- End Cta Section -->
+      </section><!-- End Services Section -->
 
-        <!-- ======= About Us Section ======= -->
-        <section id="about" class="about">
-          <div class="container" data-aos="fade-up">
+      <!-- ======= Appointment Section ======= -->
+      <section id="appointment" class="appointment section-bg">
+        <div class="container" data-aos="fade-up">
 
-            <div class="section-title">
-              <h2>About Us</h2>
-              <h3>DR. STEPHEN K. EDWARDS</h3>
-              <p>Dr. Edwards is a board licensed chiropractic physician practicing since 1999. His interest in
-                chiropractic
-                began in childhood after chiropractic care helped him recover from an injury in which conventional
-                medicine
-                was not able to help. After receiving his bachelors at Auburn University, he earned his Doctor of
-                Chiropractic degree at the prestigious Palmer Chiropractic College in Davenport, Iowa.</p>
+          <div class="section-title">
+            <h2>Make an Appointment</h2>
+            <p>Take the first step toward a pain free life and make an appointment today!</p>
+          </div>
+
+          <form action="forms/appointment.php" method="post" role="form" class="php-email-form" data-aos="fade-up"
+            data-aos-delay="100">
+            <div class="row">
+              <div class="col-md-4 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="col-md-4 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+              <div class="col-md-4 form-group mt-3 mt-md-0">
+                <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 form-group mt-3">
+                <input type="datetime" name="date" class="form-control datepicker" id="date"
+                  placeholder="Appointment Date" required>
+              </div>
+              <div class="col-md-4 form-group mt-3">
+                <select name="department" id="department" class="form-select">
+                  <option value="">Select Department</option>
+                  <option value="Department 1">Department 1</option>
+                  <option value="Department 2">Department 2</option>
+                  <option value="Department 3">Department 3</option>
+                </select>
+              </div>
+              <div class="col-md-4 form-group mt-3">
+                <select name="doctor" id="doctor" class="form-select">
+                  <option value="">Select Doctor</option>
+                  <option value="Doctor 1">Doctor 1</option>
+                  <option value="Doctor 2">Doctor 2</option>
+                  <option value="Doctor 3">Doctor 3</option>
+                </select>
+              </div>
             </div>
 
-            <div class="row justify-content-center">
-              <div class="col-lg-6" data-aos="fade-right">
-                <img src="assets/img/aboutTeam.jpg" class="img-fluid border rounded" alt="">
-              </div>
-              <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
-                <h3>At Trussville Chiropractic, Dr. Edwards and Team:</h3>
-                <p class="fst-italic">
-                  Our Purpose…to provide the highest level care to patients who seek the best in chiropractic while in a
-                  patient-centered environment.
-                </p>
-                <ul>
-                  <li><i class="bi bi-check-circle"></i>Believe health is your most important asset</li>
-                  <li><i class="bi bi-check-circle"></i> commit to your pain relief while helping you achieve overall
-                    well-being</li>
-                  <li><i class="bi bi-check-circle"></i> treat every patient with a honest approach to what we can and
-                    cannot do</li>
-                </ul>
-                <h3>This is how we do it</h3>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
+            </div>
+            <div class="my-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
+            </div>
+            <div class="text-center"><button type="submit">Make an Appointment</button></div>
+          </form>
+
+        </div>
+      </section><!-- End Appointment Section -->
+
+
+
+      <!-- ======= Testimonials Section ======= -->
+      <section id="testimonials" class="testimonials">
+        <div class="container" data-aos="fade-up">
+
+          <div class="section-title">
+            <h2>Testimonials</h2>
+            <p>Heres's What Our Patients are Saying About Us:</p>
+          </div>
+
+          <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Dr Edwards runs a state of the art Chiropractic facility and he not only provides excellent care to
+                    his patients but also genuinely cares about his clients. I would recommend him to everyone who lives
+                    in Trussville who has chiropractic needs.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img src="assets/img/testimonials/chrisReid.png" class="testimonial-img" alt="">
+                  <h3>Chris Reid</h3>
+                </div>
+              </div><!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Dr Stephen Edwards is highly recommended. Trussville Chiropractic is extremely professional.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img src="assets/img/testimonials/ashley.png" class="testimonial-img" alt="">
+                  <h3>Ashlee Phillips</h3>
+
+                </div>
+              </div><!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Very caring and attentive. Expert chiropractor.
+                    Custom pillows for better sleep. Show inserts made especially for your feet.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img src="assets/img/testimonials/georgeb.png" class="testimonial-img" alt="">
+                  <h3>George Barnett</h3>
+                </div>
+              </div><!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Great, friendly staff. And Dr Edwards takes great care of me. Especially knowledgeable in reading
+                    and measuring x-rays to give the best and most precise treatment. I’ve been to several chiropractors
+                    over the years, but I don’t ever plan on changing again!.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img src="assets/img/testimonials/Janet.png" class="testimonial-img" alt="">
+                  <h3>Janet Pursell</h3>
+                  
+                </div>
+              </div><!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Blown away!  Leslie and Dr. Edwards are the best!
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img src="assets/img/testimonials/theresa.png" class="testimonial-img" alt="">
+                  <h3>Theresa Ball</h3>
+                  
+                </div>
+              </div><!-- End testimonial item -->
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </div>
+      </section><!-- End Testimonials Section -->
+
+
+      <!-- ======= Gallery Section ======= -->
+      <section id="gallery" class="gallery">
+        <div class="container" data-aos="fade-up">
+
+          <div class="section-title">
+            <h2>Gallery</h2>
+            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+              consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
+              sit
+              in iste officiis commodi quidem hic quas.</p>
+          </div>
+
+          <div class="gallery-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-1.jpg"><img
+                    src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
+              <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-2.jpg"><img
+                    src="assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
+              <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-3.jpg"><img
+                    src="assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
+              <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-4.jpg"><img
+                    src="assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
+              <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-5.jpg"><img
+                    src="assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
+              <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-6.jpg"><img
+                    src="assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </div>
+      </section><!-- End Gallery Section -->
+
+
+
+      <!-- ======= Frequently Asked Questioins Section ======= -->
+      <section id="faq" class="faq section-bg">
+        <div class="container" data-aos="fade-up">
+
+          <div class="section-title">
+            <h2>Frequently Asked Questioins</h2>
+            <p>The following are common questions asked about chiropractic care.</p>
+          </div>
+
+          <ul class="faq-list">
+
+            <li>
+              <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What is chiropractic care? <i
+                  class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+              <div id="faq1" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  On your first visit we:
+                  Chiropractic care is a health care profession based on interactions of the spine and nervous system,
+                  as well as the surrounding muscles.
                 </p>
-                <ul>
-                  <li><i class="bi bi-check-circle"></i>Evaluate your symptoms or injury</li>
-                  <li><i class="bi bi-check-circle"></i>Perform an exam with xrays and other specialized diagnostic
-                    methods
-                  </li>
-                  <li><i class="bi bi-check-circle"></i>Determine if you are a good candidate for chiropractic</li>
-                  <li><i class="bi bi-check-circle"></i>Review exam findings with you and recommend your best course of
-                    action</li>
-                </ul>
               </div>
-            </div>
+            </li>
 
-            <div class="row justify-content-center pt-5">
-              <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-                <p class="fst-italic text-center">
-                  Trussville Chiropractic enjoys a high level of patient satisfaction because we listen and address
-                  questions you may have and encourage open communication throughout your care in our office. We strive
-                  to
-                  teach understanding of the powerful body mechanisms and systems that regulate and control resistance
-                  to
-                  disease; healing and repair; – and together we achieve healing and wellness for our patients.
+            <li>
+              <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Are chiropractors doctors? <i
+                  class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+              <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Yes. Doctors of Chiropractic (also known as chiropractors) are not medical doctors, but go through a
+                  similar education process to become licensed in the field of chiropractic care. In fact, educational
+                  requirements for chiropractors are among the most stringent of any health care profession.
                 </p>
-                <div class="row justify-content-center">
-                  <div class="col-lg-6 pb-5 pt-2" data-aos="fade-right">
-                    <img src="assets//img/headShot.jpg" class="headShot img-fluid border rounded" alt="">
-                    <p class="text-center text-muted pt-3">DR. STEPHEN K. EDWARDS</p>
+              </div>
+            </li>
+
+            <li>
+              <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">What types of pain do chiropractors
+                treat? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+              <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Chiropractors are known for their expertise in caring for patients with back pain, neck pain, and
+                  headaches. They also treat sports injuries and other disorders involving muscles, ligaments and
+                  joints. The benefits of chiropractic care go beyond this and extend into general health as our core
+                  body structure affects overall function and health.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">What is a chiropractic adjustment?
+                <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
+              </div>
+              <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  A chiropractic adjustment is the art of using a specific, controlled force in a precise direction that
+                  is applied to a spinal joint not moving properly or “locked up.” The purpose of this natural and safe
+                  procedure is to correct structural alignment and eliminate interference in the nervous system. For the
+                  patient, this means improved spinal function, reduction in pain, and an overall improvement in health
+                  and wellness.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Do adjustments hurt? <i
+                  class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+              <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Chiropractic manipulation is a highly controlled procedure that rarely causes discomfort because
+                  minimal force and gentle pressure are used. In fact, most patients feel relief immediately following
+                  treatment. Any reported soreness after an initial adjustment has been described as similar to that
+                  associated with starting a new exercise program. Drinking plenty of water, using an ice pack, and
+                  engaging in light stretching after your first visit can help ease any discomfort promote healing.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Are adjustments safe? <i
+                  class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+              <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Chiropractic care is widely recognized as one of the safest drug-free, non-invasive therapies
+                  available for the treatment of most back and neck problems. Spinal adjustments are extremely safe when
+                  performed by a licensed chiropractor.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div data-bs-toggle="collapse" href="#faq7" class="collapsed question">Why do adjustments sometimes make a
+                popping sound? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
+              </div>
+              <div id="faq7" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  The noises you hear resembling popping sounds are your joints releasing tiny pockets of air. A
+                  chiropractic adjustment does not affect the bones of either side of a joint; it affects the connective
+                  tissue that holds the joint together.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div data-bs-toggle="collapse" href="#faq8" class="collapsed question">Can I see a chiropractor if I am
+                pregnant? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
+              </div>
+              <div id="faq8" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Many pregnant women find that chiropractic adjustments improve the pregnancy experience and make
+                  delivery easier. Adjustments are adapted to accommodate the stage of pregnancy and the unique needs of
+                  each patient.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section><!-- End Frequently Asked Questioins Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container">
+
+          <div class="section-title">
+            <h2>Contact</h2>
+            <p>We'd love to hear from you regarding any questions or concerns you may have. For your convenience we have
+              seveal ways of reaching us listed below:</p>
+          </div>
+
+        </div>
+
+
+        <div class="container">
+
+          <div class="row mt-5">
+
+            <div class="col-lg-6">
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="info-box">
+                    <i class="bx bx-map"></i>
+                    <h3>Our Location</h3>
+                    <p>6504 Old Springville Rd Pinson, AL 35126</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-box mt-4">
+                    <i class="bx bx-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p>info@example.com<br>contact@example.com</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-box mt-4">
+                    <i class="bx text-center bx-phone-call"></i>
+                    <h3>Call Us</h3>
+                    <p>Phone: 205-520-0091
+                      <br>Fax: 205-520-0508
+                    </p>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6" data-aos="fade-right">
-                <img src="assets//img/aboutUsTeam.jpg" class="img-fluid aboutTeam border rounded" alt="">
-
-              </div>
 
             </div>
-            <h3 class="text-center pt-4">Call today and find out what chiropractic can do for you!</h3>
+
+            <div class="col-lg-6">
+
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="row">
+                  <div class="col mt-3 form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  </div>
+                  <div class="col form-group mt-3">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
+            </div>
+            <div>
+              <iframe class="pt-3" style="border:0; width: 100%; height: 350px;"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.6117889101374!2d-86.6180638!3d33.693115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88890b08a29599ef%3A0x25ccf5ee6666fddc!2s6504%20Old%20Springville%20Rd%2C%20Pinson%2C%20AL%2035126!5e0!3m2!1sen!2sus!4v1660342435042!5m2!1sen!2sus"
+                frameborder="0" allowfullscreen></iframe>
+            </div>
           </div>
-      </div>
 
-      </section><!-- End About Us Section -->
-
-
-
-      <!-- ======= Features Section ======= -->
-      <div>
-        <div class="parallax">
-          <h1 class="p-3 border rounded" id="paraText">Let Us Help You Get Back To The Life You Love</h1>
         </div>
-        </section><!-- End Features Section -->
 
-        <!-- ======= Services Section ======= -->
-        <section id="treatments" class="services services">
-          <div class="container" data-aos="fade-up">
+      </section><!-- End Contact Section -->
 
-            <div class="section-title">
-              <h2>Treatments</h2>
-              <p>Whether you have seen a chiropractor in the past or are seeking a local chiropractor near you for the
-                first time, expect your visit to The Joint Chiropractic - Mission Valley to be different from any
-                healthcare experience you've had before. Perhaps even life-changing.</p>
-            </div>
+  </main><!-- End #main -->
 
-            <div class="row">
-              <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon"><i class="fas fa-user-doctor"></i></div>
-                <h4 class="title"><a href="">Back Pain</a></h4>
-                <p class="description">Back pain is one of the most common reasons people go to the doctor or miss work
-                  and a leading cause of disability worldwide.</p>
-              </div>
-              <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
-                <div class="icon"><i class="fas fa-child"></i></div>
-                <h4 class="title"><a href="">Kid's Chiropractic Care</a></h4>
-                <p class="description">Chiropractic serves as an important part of your baby’s integrative pediatric
-                  health care team.</p>
-              </div>
-              <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
-                <div class="icon"><i class="fas fa-kit-medical"></i></div>
-                <h4 class="title"><a href="">Supportive Devices</a></h4>
-                <p class="description">Trussville Chiropractic, P.C. offers bracing and support solutions that fit your
-                  unique needs. We strive to increase your mobility, decrease your rehabilitation time and empower your
-                  potential.</p>
-              </div>
-              <div class="col-lg-6 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon"><i class="fas fa-shoe-prints"></i></div>
-                <h4 class="title"><a href="#">Orthotics</a></h4>
-                <p class="description">Your feet may be a major factor contributing to your health problems. A foot
-                  problem may be the cause of discomfort in your leg, knee, hip, back, shoulder, or even your neck!</p>
-              </div>
-              <div class="col-lg-6 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
-                <div class="icon"><i class="fas fa-person-cane"></i></div>
-                <h4 class="title"><a href="">Physiotherapy</a></h4>
-                <p class="description">Physiotherapy helps to restore movement and function when someone is affected by
-                  injury, illness or disability. It can also help to reduce your risk of injury or illness in the
-                  future.
-                </p>
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Trussville Chiropractic</h3>
+              <p>
+                6504 Old Springville Rd <br>
+                Pinson, AL 35126 USA<br><br>
+                <strong>Phone:</strong> +1 205 520 0091<br>
+                <strong>Email:</strong> info@example.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.facebook.com/drstephenkedwards/?fref=ts" class="facebook"><i
+                    class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/trussvillechiropractic/?hl=en" class="instagram"><i
+                    class="bx bxl-instagram"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
               </div>
             </div>
-
           </div>
-        </section><!-- End Services Section -->
 
-        <!-- ======= Appointment Section ======= -->
-        <section id="appointment" class="appointment section-bg">
-          <div class="container" data-aos="fade-up">
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
 
-            <div class="section-title">
-              <h2>Make an Appointment</h2>
-              <p>Take the first step toward a pain free life and make an appointment today!</p>
-            </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Treatments</h4>
+            <ul>
+              <li><a href="#treatments">Back Pain</a></li>
+              <li><a href="#treatments">Kid's Chiropractic Care</a></li>
+              <li><a href="#treatments">Supportive Devices</a></li>
+              <li><a href="#treatments">Orthotics</a></li>
+              <li><a href="#treatments">Physiotherapy</a></li>
+            </ul>
+          </div>
 
-            <form action="forms/appointment.php" method="post" role="form" class="php-email-form" data-aos="fade-up"
-              data-aos-delay="100">
-              <div class="row">
-                <div class="col-md-4 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-4 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-                <div class="col-md-4 form-group mt-3 mt-md-0">
-                  <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" required>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-4 form-group mt-3">
-                  <input type="datetime" name="date" class="form-control datepicker" id="date"
-                    placeholder="Appointment Date" required>
-                </div>
-                <div class="col-md-4 form-group mt-3">
-                  <select name="department" id="department" class="form-select">
-                    <option value="">Select Department</option>
-                    <option value="Department 1">Department 1</option>
-                    <option value="Department 2">Department 2</option>
-                    <option value="Department 3">Department 3</option>
-                  </select>
-                </div>
-                <div class="col-md-4 form-group mt-3">
-                  <select name="doctor" id="doctor" class="form-select">
-                    <option value="">Select Doctor</option>
-                    <option value="Doctor 1">Doctor 1</option>
-                    <option value="Doctor 2">Doctor 2</option>
-                    <option value="Doctor 3">Doctor 3</option>
-                  </select>
-                </div>
-              </div>
-
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Make an Appointment</button></div>
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Stay up to date with our latest promotions, services, and much more.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
 
           </div>
-        </section><!-- End Appointment Section -->
 
-
-
-        <!-- ======= Testimonials Section ======= -->
-        <section id="testimonials" class="testimonials">
-          <div class="container" data-aos="fade-up">
-
-            <div class="section-title">
-              <h2>Testimonials</h2>
-              <p>Heres's What Our Patients are Saying About Us:</p>
-            </div>
-
-            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-              <div class="swiper-wrapper">
-
-                <div class="swiper-slide">
-                  <div class="testimonial-item">
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Dr Edwards runs a state of the art Chiropractic facility and he not only provides excellent care
-                      to
-                      his patients but also genuinely cares about his clients. I would recommend him to everyone who
-                      lives
-                      in Trussville who has chiropractic needs.
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                    <img src="assets/img/testimonials/chrisReid.png" class="testimonial-img" alt="">
-                    <h3>Chris Reid</h3>
-                  </div>
-                </div><!-- End testimonial item -->
-
-                <div class="swiper-slide">
-                  <div class="testimonial-item">
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Dr Stephen Edwards is highly recommended. Trussville Chiropractic is extremely professional.
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                    <img src="assets/img/testimonials/ashley.png" class="testimonial-img" alt="">
-                    <h3>Ashlee Phillips</h3>
-
-                  </div>
-                </div><!-- End testimonial item -->
-
-                <div class="swiper-slide">
-                  <div class="testimonial-item">
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Very caring and attentive. Expert chiropractor.
-                      Custom pillows for better sleep. Show inserts made especially for your feet.
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                    <img src="assets/img/testimonials/georgeb.png" class="testimonial-img" alt="">
-                    <h3>George Barnett</h3>
-                  </div>
-                </div><!-- End testimonial item -->
-
-                <div class="swiper-slide">
-                  <div class="testimonial-item">
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Great, friendly staff. And Dr Edwards takes great care of me. Especially knowledgeable in reading
-                      and measuring x-rays to give the best and most precise treatment. I’ve been to several
-                      chiropractors
-                      over the years, but I don’t ever plan on changing again!.
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                    <img src="assets/img/testimonials/Janet.png" class="testimonial-img" alt="">
-                    <h3>Janet Pursell</h3>
-
-                  </div>
-                </div><!-- End testimonial item -->
-
-                <div class="swiper-slide">
-                  <div class="testimonial-item">
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Blown away! Leslie and Dr. Edwards are the best!
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                    <img src="assets/img/testimonials/theresa.png" class="testimonial-img" alt="">
-                    <h3>Theresa Ball</h3>
-
-                  </div>
-                </div><!-- End testimonial item -->
-
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-
-          </div>
-        </section><!-- End Testimonials Section -->
-
-
-        <!-- ======= Gallery Section ======= -->
-        <section id="gallery" class="gallery">
-          <div class="container" data-aos="fade-up">
-
-            <div class="section-title">
-              <h2>Gallery</h2>
-              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
-                sit
-                in iste officiis commodi quidem hic quas.</p>
-            </div>
-
-            <div class="gallery-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-                <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-1.jpg"><img
-                      src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
-                <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-2.jpg"><img
-                      src="assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
-                <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-3.jpg"><img
-                      src="assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
-                <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-4.jpg"><img
-                      src="assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
-                <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-5.jpg"><img
-                      src="assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
-                <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-6.jpg"><img
-                      src="assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-
-          </div>
-        </section><!-- End Gallery Section -->
-
-
-
-        <!-- ======= Frequently Asked Questioins Section ======= -->
-        <section id="faq" class="faq section-bg">
-          <div class="container" data-aos="fade-up">
-
-            <div class="section-title">
-              <h2>Frequently Asked Questioins</h2>
-              <p>The following are common questions asked about chiropractic care.</p>
-            </div>
-
-            <ul class="faq-list">
-
-              <li>
-                <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">What is chiropractic care? <i
-                    class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-                  <p>
-                    Chiropractic care is a health care profession based on interactions of the spine and nervous system,
-                    as well as the surrounding muscles.
-                  </p>
-                </div>
-              </li>
-
-              <li>
-                <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Are chiropractors doctors? <i
-                    class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-                  <p>
-                    Yes. Doctors of Chiropractic (also known as chiropractors) are not medical doctors, but go through a
-                    similar education process to become licensed in the field of chiropractic care. In fact, educational
-                    requirements for chiropractors are among the most stringent of any health care profession.
-                  </p>
-                </div>
-              </li>
-
-              <li>
-                <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">What types of pain do
-                  chiropractors
-                  treat? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-                  <p>
-                    Chiropractors are known for their expertise in caring for patients with back pain, neck pain, and
-                    headaches. They also treat sports injuries and other disorders involving muscles, ligaments and
-                    joints. The benefits of chiropractic care go beyond this and extend into general health as our core
-                    body structure affects overall function and health.
-                  </p>
-                </div>
-              </li>
-
-              <li>
-                <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">What is a chiropractic
-                  adjustment?
-                  <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
-                </div>
-                <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-                  <p>
-                    A chiropractic adjustment is the art of using a specific, controlled force in a precise direction
-                    that
-                    is applied to a spinal joint not moving properly or “locked up.” The purpose of this natural and
-                    safe
-                    procedure is to correct structural alignment and eliminate interference in the nervous system. For
-                    the
-                    patient, this means improved spinal function, reduction in pain, and an overall improvement in
-                    health
-                    and wellness.
-                  </p>
-                </div>
-              </li>
-
-              <li>
-                <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Do adjustments hurt? <i
-                    class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-                  <p>
-                    Chiropractic manipulation is a highly controlled procedure that rarely causes discomfort because
-                    minimal force and gentle pressure are used. In fact, most patients feel relief immediately following
-                    treatment. Any reported soreness after an initial adjustment has been described as similar to that
-                    associated with starting a new exercise program. Drinking plenty of water, using an ice pack, and
-                    engaging in light stretching after your first visit can help ease any discomfort promote healing.
-                  </p>
-                </div>
-              </li>
-
-              <li>
-                <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Are adjustments safe? <i
-                    class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-                <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-                  <p>
-                    Chiropractic care is widely recognized as one of the safest drug-free, non-invasive therapies
-                    available for the treatment of most back and neck problems. Spinal adjustments are extremely safe
-                    when
-                    performed by a licensed chiropractor.
-                  </p>
-                </div>
-              </li>
-
-              <li>
-                <div data-bs-toggle="collapse" href="#faq7" class="collapsed question">Why do adjustments sometimes make
-                  a
-                  popping sound? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
-                </div>
-                <div id="faq7" class="collapse" data-bs-parent=".faq-list">
-                  <p>
-                    The noises you hear resembling popping sounds are your joints releasing tiny pockets of air. A
-                    chiropractic adjustment does not affect the bones of either side of a joint; it affects the
-                    connective
-                    tissue that holds the joint together.
-                  </p>
-                </div>
-              </li>
-
-              <li>
-                <div data-bs-toggle="collapse" href="#faq8" class="collapsed question">Can I see a chiropractor if I am
-                  pregnant? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
-                </div>
-                <div id="faq8" class="collapse" data-bs-parent=".faq-list">
-                  <p>
-                    Many pregnant women find that chiropractic adjustments improve the pregnancy experience and make
-                    delivery easier. Adjustments are adapted to accommodate the stage of pregnancy and the unique needs
-                    of
-                    each patient.
-                  </p>
-                </div>
-              </li>
-
-            </ul>
-
-          </div>
-        </section><!-- End Frequently Asked Questioins Section -->
-
-        <!-- ======= Contact Section ======= -->
-        <section id="contact" class="contact">
-          <div class="container">
-
-            <div class="section-title">
-              <h2>Contact</h2>
-              <p>We'd love to hear from you regarding any questions or concerns you may have. For your convenience we
-                have
-                seveal ways of reaching us listed below:</p>
-            </div>
-
-          </div>
-
-
-          <div class="container">
-
-            <div class="row mt-5">
-
-              <div class="col-lg-6">
-
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="info-box">
-                      <i class="bx bx-map"></i>
-                      <h3>Our Location</h3>
-                      <p>6504 Old Springville Rd Pinson, AL 35126</p>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="info-box mt-4">
-                      <i class="bx bx-envelope"></i>
-                      <h3>Email Us</h3>
-                      <p>info@example.com<br>contact@example.com</p>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="info-box mt-4">
-                      <i class="bx text-center bx-phone-call"></i>
-                      <h3>Call Us</h3>
-                      <p>Phone: 205-520-0091
-                        <br>Fax: 205-520-0508
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-              <div class="col-lg-6">
-
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                  <div class="row">
-                    <div class="col mt-3 form-group">
-                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="col form-group mt-3">
-                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                        required>
-                    </div>
-                  </div>
-                  <div class="form-group mt-3">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                  </div>
-                  <div class="form-group mt-3">
-                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                  </div>
-                  <div class="my-3">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                  </div>
-                  <div class="text-center"><button type="submit">Send Message</button></div>
-                </form>
-              </div>
-              <div>
-                <iframe class="pt-3" style="border:0; width: 100%; height: 350px;"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.6117889101374!2d-86.6180638!3d33.693115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88890b08a29599ef%3A0x25ccf5ee6666fddc!2s6504%20Old%20Springville%20Rd%2C%20Pinson%2C%20AL%2035126!5e0!3m2!1sen!2sus!4v1660342435042!5m2!1sen!2sus"
-                  frameborder="0" allowfullscreen></iframe>
-              </div>
-            </div>
-
-          </div>
-
-        </section><!-- End Contact Section -->
-
-    </main><!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-
-            <div class="col-lg-3 col-md-6">
-              <div class="footer-info">
-                <h3>Trussville Chiropractic</h3>
-                <p>
-                  6504 Old Springville Rd <br>
-                  Pinson, AL 35126 USA<br><br>
-                  <strong>Phone:</strong> +1 205 520 0091<br>
-                  <strong>Email:</strong> info@example.com<br>
-                </p>
-                <div class="social-links mt-3">
-                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                  <a href="https://www.facebook.com/drstephenkedwards/?fref=ts" class="facebook"><i
-                      class="bx bxl-facebook"></i></a>
-                  <a href="https://www.instagram.com/trussvillechiropractic/?hl=en" class="instagram"><i
-                      class="bx bxl-instagram"></i></a>
-                  <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-2 col-md-6 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-              </ul>
-            </div>
-
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Treatments</h4>
-              <ul>
-                <li><a href="#treatments">Back Pain</a></li>
-                <li><a href="#treatments">Kid's Chiropractic Care</a></li>
-                <li><a href="#treatments">Supportive Devices</a></li>
-                <li><a href="#treatments">Orthotics</a></li>
-                <li><a href="#treatments">Physiotherapy</a></li>
-              </ul>
-            </div>
-
-            <div class="col-lg-4 col-md-6 footer-newsletter">
-              <h4>Our Newsletter</h4>
-              <p>Stay up to date with our latest promotions, services, and much more.</p>
-              <form action="" method="post">
-                <input type="email" name="email"><input type="submit" value="Subscribe">
-              </form>
-
-            </div>
-
-          </div>
         </div>
       </div>
+    </div>
 
 
-      <div class="copyright">
-        &copy; Copyright <strong><span>Trussville Chiropractic</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medicio-free-bootstrap-theme/ -->
-        Designed by <a class="footerText" href="https://sockmonkeyy.github.io/resume/">Bama Trends</a>
-      </div>
-  </div>
+    <div class="copyright">
+      &copy; Copyright <strong><span>Trussville Chiropractic</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      <!-- All the links in the footer should remain intact. -->
+      <!-- You can delete the links only if you purchased the pro version. -->
+      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medicio-free-bootstrap-theme/ -->
+      Designed by <a class="footerText" href="https://sockmonkeyy.github.io/resume/">Bama Trends</a>
+    </div>
+    </div>
   </footer><!-- End Footer -->
 
   <div id="preloader"></div>
