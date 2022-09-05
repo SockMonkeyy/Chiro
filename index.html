@@ -64,7 +64,7 @@
     .parallax {
       /* The image used */
       background-image: url("./assets/img/mitchell-griest-MT9gX5nd7Ig-unsplash.jpg");
-
+      
       /* Set a specific height */
       min-height: 500px;
       background-attachment: fixed;
@@ -80,9 +80,10 @@
     .parallax1 {
       /* The image used */
       background-image: url("./assets/img/backSpine.jpg");
-
+background-color: rgba(0, 0, 0, 0.575);
+background-blend-mode: darken;
       /* Set a specific height */
-      min-height: 400px;
+      min-height: 60vh;
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
@@ -264,7 +265,7 @@
 
     <!-- ======= Cta Section ======= -->
     <div class="parallax1 container-fluid cta row">
-      <h3 class="col-8 cta-text rounded">Take The Next Step To A Pain Free Life <br><br> Talk With the Doctor about your
+      <h3 class="col-12 cta-text rounded">Take The Next Step To A Pain Free Life <br><br> Talk With the Doctor about your
         symptoms to
         detemine if chiropractic is a good choice for you.</h3>
       <p class="cta-text1"></p>
@@ -417,40 +418,45 @@
         <div class="container" data-aos="fade-up">
 
           <div class="section-title">
-            <h2>Make an Appointment</h2>
-            <p>Take the first step toward a pain free life and make an appointment today!</p>
+            <h2>Request an Appointment</h2>
+            <p>Take the first step toward a pain free life and request an appointment today!</p>
           </div>
 
           <form action="forms/appointment.php" method="post" role="form" class="php-email-form" data-aos="fade-up"
             data-aos-delay="100">
             <div class="row">
               <div class="col-md-4 form-group">
+                <h5>Patient Name:</h5>
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
               </div>
               <div class="col-md-4 form-group mt-3 mt-md-0">
+                <h5>Email Address:</h5>
                 <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
               </div>
               <div class="col-md-4 form-group mt-3 mt-md-0">
+                <h5>Phone Number:</h5>
                 <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" required>
               </div>
             </div>
             <div class="row">
               <div class="col-md-4 form-group mt-3">
+                <h5>Appointment Date:</h5>
                 <input type="datetime" name="date" class="form-control datepicker" id="date"
-                  placeholder="Appointment Date" required>
+                  placeholder="Appointment Date Request" required>
               </div>
+            
               <div class="col-md-4 form-group mt-3">
+                <h5>Time of Day:</h5>
                 <select name="department" id="department" class="form-select">
-                  <option value="">Select Department</option>
-                  <option value="Department 1">Department 1</option>
-                  <option value="Department 2">Department 2</option>
-                  <option value="Department 3">Department 3</option>
+                  <option value="Department 1">Morning</option>
+                  <option value="Department 2">Afternoon</option>
+                  
                 </select>
               </div>
               <div class="col-md-4 form-group mt-3">
+                <h5>Select Doctor:</h5>
                 <select name="doctor" id="doctor" class="form-select">
-                  <option value="">Select Doctor</option>
-                  <option value="Doctor 1">Doctor 1</option>
+                  <option value="Doctor 1">Dr. Edwards</option>
                   <option value="Doctor 2">Doctor 2</option>
                   <option value="Doctor 3">Doctor 3</option>
                 </select>
@@ -465,9 +471,11 @@
               <div class="error-message"></div>
               <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
             </div>
-            <div class="text-center"><button type="submit">Make an Appointment</button></div>
+            <div class="text-center"><button type="submit">Request an Appointment</button></div>
           </form>
-
+          <h6 class="text-muted text-center pt-4">Please note this is only an appointment request. You will be contacted shortly by a member of 
+            our staff to confirm your appointment.
+          </h6>
         </div>
       </section><!-- End Appointment Section -->
 
@@ -561,38 +569,7 @@
       </section><!-- End Testimonials Section -->
 
 
-      <!-- ======= Gallery Section ======= -->
-      <section id="gallery" class="gallery">
-        <div class="container" data-aos="fade-up">
-
-          <div class="section-title">
-            <h2>Gallery</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-              consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
-              sit
-              in iste officiis commodi quidem hic quas.</p>
-          </div>
-
-          <div class="gallery-slider swiper">
-            <div class="swiper-wrapper align-items-center">
-              <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-1.jpg"><img
-                    src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
-              <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-2.jpg"><img
-                    src="assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
-              <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-3.jpg"><img
-                    src="assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
-              <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-4.jpg"><img
-                    src="assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
-              <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-5.jpg"><img
-                    src="assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
-              <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-6.jpg"><img
-                    src="assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-
-        </div>
-      </section><!-- End Gallery Section -->
+    
 
 
 
@@ -714,6 +691,39 @@
 
         </div>
       </section><!-- End Frequently Asked Questioins Section -->
+
+  <!-- ======= Gallery Section ======= -->
+  <section id="gallery" class="gallery">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Gallery</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
+          sit
+          in iste officiis commodi quidem hic quas.</p>
+      </div>
+
+      <div class="gallery-slider swiper">
+        <div class="swiper-wrapper align-items-center">
+          <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-1.jpg"><img
+                src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-2.jpg"><img
+                src="assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-3.jpg"><img
+                src="assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-4.jpg"><img
+                src="assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-5.jpg"><img
+                src="assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
+          <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-6.jpg"><img
+                src="assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </div>
+  </section><!-- End Gallery Section -->
 
       <!-- ======= Contact Section ======= -->
       <section id="contact" class="contact">
